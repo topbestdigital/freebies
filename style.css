@@ -137,11 +137,23 @@
     -moz-transition: all 0.4s ease;
     transition: all 0.4s ease;
     -moz-box-shadow: inherit;
+    height: 76px;
 }
 .header .img-logo {
     margin-top: 18px;
-    height: 66px;
-    width: 144px;
+    height: 40px;
+    width: 236px;
+}
+.header .img-logo .h4 {
+    font-family: monospace;
+}
+
+.header .middle-header{
+    height: 76px;
+}
+.header .img-logo i {
+    color: #fee600;
+    font-style: normal;
 }
 .header .text-logo{
 	margin-top:30px;
@@ -178,13 +190,13 @@
     text-transform: capitalize;
     position: relative;
     display: block;
-    padding: 30px 0;
+    padding: 25px 0;
     color: #000000;
     font-weight: 600;
 }
 .header .nav li.active a,
 .header .nav li:hover a{
-	color:#000000;
+	color:#fee600;
 }
 .header .nav li a::before {
 	content: "";
@@ -1403,9 +1415,17 @@ blockquote {
     margin-top: 80px;
 }
 
+.homepage .button .bizwheel-btn {
+    background-color: #ffffff;
+}
+.homepage .button .bizwheel-btn:hover{
+	background:#000000;
+	color:#ffffff;
+}
+
 .homepage::before {
 	background: #000;
-	opacity: 0;
+	opacity: 0.05;
 }
 .homepage .bread-title {
     z-index: 3333;
@@ -1413,23 +1433,23 @@ blockquote {
     border-radius: 5px;
 }
 .homepage .bread-title p {
-    color: #ebebebeb;
+    color: #ffffff;
     font-size: 16px;
 }
 .homepage h1 {
 	color: #fff;
 	text-transform: capitalize;
-	font-size: 44px;
+	font-size: 50px;
 	margin: 0;
 	padding: 0;
-	line-height: 50px;
+	line-height: 60px;
 	z-index: 333;
 	position: relative;
 	font-weight: 700;
 	padding-top: 10px;
 }
 .homepage h4 {
-	color: #000000;
+	color: #ffffff;
 	text-transform: capitalize;
 	font-size: 30px;
 	margin: 0;
@@ -1910,6 +1930,7 @@ blockquote {
 
 @media only screen and (min-width: 991px) and (max-width: 1900px) {
 /* Header Sticky */
+
 .header.sticky .middle-header {
     position: fixed;
     top: 0;
@@ -1923,22 +1944,23 @@ blockquote {
     -moz-transition: all 0.6s ease;
     transition: all 0.6s ease;
     animation: fadeInDown 1s both 0.2s;
+    height: 80px;
 }
 .header.style2.sticky .middle-header {
     background: #000000;
 }
 
 .header.sticky .nav li a {
-    padding: 22px 0;
+    padding: 27px 0;
 }
 .header.sticky .text-logo {
-    margin-top: 22px;
+    margin-top: 18px;
 }
 .header.sticky .right-bar {
     line-height: 72px;
 }
 .header.sticky .img-logo {
-    margin-top: 12px;
+    margin-top: 18px;
 }
 .header.style2.sticky .middle-inner {
     padding: 0;
@@ -1996,6 +2018,14 @@ p.has-large-font-size {
 .footer .footer-top {
     padding: 50px 0 80px;
 }
+.footer .img-logo h4 {
+    color: #fee600;
+}
+.footer .img-logo i {
+    color:#fff;
+    font-style: normal;
+
+}
 .footer .single-widget {
 	margin-top: 30px;
 }
@@ -2025,7 +2055,7 @@ p.has-large-font-size {
 	padding-right: 30px;
 }
 .footer-about .logo {
-    margin-bottom: 15px;
+    margin-bottom: 0px;
 }
 .footer-about .text-logo a {
     color: #fff;
@@ -2036,9 +2066,9 @@ p.has-large-font-size {
 	margin-bottom: 35px;
 }
 .footer-about .button .bizwheel-btn {
-    background: #000000;
+    background: #fee600;
     margin-top: 20px;
-    color: #fff;
+    color: #000000;
 }
 .footer-about .button .bizwheel-btn:hover{
 	background:#fff;
