@@ -79,7 +79,7 @@
     float: left;
     right: 0;
 }
-.topbar-right .button .bizwheel-btn {
+.topbar-right .button .topbest-btn {
     height: auto;
     text-transform: initial;
     padding: 8px 15px;
@@ -89,7 +89,7 @@
     color: #000000;
     border: 1px solid transparent;
 }
-.topbar-right .button .bizwheel-btn:hover{
+.topbar-right .button .topbest-btn:hover{
 	background:transparent;
 	border-color:#fff;
 	color:#fee600;
@@ -699,7 +699,7 @@
     right: 0;
     top: 7px;
 }
-.header.style2 .bizwheel-btn {
+.header.style2 .topbest-btn {
     background: #000000;
     padding: 12px 20px;
     font-size: 14px;
@@ -710,7 +710,7 @@
 .header.style2 .nav-inner {
     margin-right: 165px;
 }
-.header.style2 .bizwheel-btn:hover{
+.header.style2 .topbest-btn:hover{
 	background:#fff;
 	color:#000000;
 }
@@ -1080,18 +1080,18 @@ blockquote {
 .blog-comments-form .form textarea {
     height: 150px;
 }
-.blog-comments-form .form .bizwheel-btn {
+.blog-comments-form .form .topbest-btn {
 	background: #000000;
 	padding: 20px 30px;
 	border-radius: 0px;
 	border: none;
 	color: #fff;
 }
-.blog-comments-form .form .bizwheel-btn:hover{
+.blog-comments-form .form .topbest-btn:hover{
 	background:#000000;
 	color:#fff;
 }
-.blog-comments-form .form .bizwheel-btn i {
+.blog-comments-form .form .topbest-btn i {
     margin-left: 10px;
     font-size: 14px;
 }
@@ -1328,10 +1328,10 @@ blockquote {
 /*====================================
 	Page CSS
 ======================================*/
-.bizwheel-internal-area.news-area {
+.topbest-internal-area.news-area {
 	padding: 70px 0 100px;
 }
-.bizwheel-internal-area.news-area .single-news {
+.topbest-internal-area.news-area .single-news {
 	margin: 30px 0 0;
 }
 /* BLog Single */
@@ -1393,7 +1393,7 @@ blockquote {
 .error .error-inner .button {
 	margin-top: 20px;
 }
-.error .error-inner .button .bizwheel-btn i {
+.error .error-inner .button .topbest-btn i {
 	margin-right: 10px;
 }
 /*====================================
@@ -1415,10 +1415,10 @@ blockquote {
     margin-top: 80px;
 }
 
-.homepage .button .bizwheel-btn {
+.homepage .button .topbest-btn {
     background-color: #ffffff;
 }
-.homepage .button .bizwheel-btn:hover{
+.homepage .button .topbest-btn:hover{
 	background:#000000;
 	color:#ffffff;
 }
@@ -2065,12 +2065,12 @@ p.has-large-font-size {
 .footer-about .text {
 	margin-bottom: 35px;
 }
-.footer-about .button .bizwheel-btn {
+.footer-about .button .topbest-btn {
     background: #fee600;
     margin-top: 20px;
     color: #000000;
 }
-.footer-about .button .bizwheel-btn:hover{
+.footer-about .button .topbest-btn:hover{
 	background:#fff;
 	color:#000000
 }
@@ -2682,13 +2682,13 @@ p.has-large-font-size {
 }
 .single-feature p{
 	font-size: 14px;
-}.bizwheel-btn.theme-2 {
+}.topbest-btn.theme-2 {
     background: #fee600;
     color: #000000;
     padding: 15px 32px;
 }
 
-.bizwheel-btn.theme-1 {
+.topbest-btn.theme-1 {
     background: #fee600;
     color: #000000;
     padding: 15px 32px;
@@ -2696,7 +2696,7 @@ p.has-large-font-size {
 .single-feature .button{
 	margin-top: 15px;
 }
-.single-feature .button .bizwheel-btn {
+.single-feature .button .topbest-btn {
     background: transparent;
     color: #666;
     padding: 0;
@@ -2705,7 +2705,7 @@ p.has-large-font-size {
     line-height: initial;
     border: none;
 }
-.single-feature .button .bizwheel-btn i {
+.single-feature .button .topbest-btn i {
     margin-right: 10px;
     background: #000000;
     color: #fff;
@@ -2719,8 +2719,8 @@ p.has-large-font-size {
     -moz-transition: all 0.3s ease;
     transition: all 0.3s ease;
 }
-.single-feature.active .bizwheel-btn i,
-.single-feature:hover .bizwheel-btn  i{
+.single-feature.active .topbest-btn i,
+.single-feature:hover .topbest-btn  i{
 	color:#fff;
 	background:#000000;
 }
@@ -2879,7 +2879,7 @@ p.has-large-font-size {
 .features-main .feature-btn{
 	margin-top:20px;
 }
-.features-main .bizwheel-btn.theme-2:hover {
+.features-main .topbest-btn.theme-2:hover {
     background: #fff;
     color: #000000;
 }
@@ -3092,12 +3092,12 @@ p.has-large-font-size {
     float: right;
     margin-top: 5px;
 }
-.call-action .bizwheel-btn {
+.call-action .topbest-btn {
     background: #fee600;
     color: #fff;
 	box-shadow:0 10px 10px -8px rgba(0, 0, 0, 0.5);
 }
-.call-action .bizwheel-btn:hover{
+.call-action .topbest-btn:hover{
 	background:#fff;
 	color:#fee600;
 }
@@ -3417,7 +3417,7 @@ p.has-large-font-size {
 .pf-details .single-portfolio .portfolio-content {
 	padding: 15px 0 0px;
 }
-.pf-details .portfolio-meta .bizwheel-btn {
+.pf-details .portfolio-meta .topbest-btn {
     padding: 12px 30px;
 }
 
@@ -3929,7 +3929,7 @@ p.has-large-font-size {
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.12);
     margin-bottom: 0px;
 }
-.blog-latest .single-news .bizwheel-btn {
+.blog-latest .single-news .topbest-btn {
     z-index: 333;
     position: absolute;
     background: #fff;
@@ -3942,11 +3942,11 @@ p.has-large-font-size {
     transition: all 0.3s ease;
     top: 32px;
 }
-.blog-latest .single-news .bizwheel-btn:hover{
+.blog-latest .single-news .topbest-btn:hover{
 	background:#000000;
 	color:#fff;
 }
-.blog-latest .single-news:hover .bizwheel-btn{
+.blog-latest .single-news:hover .topbest-btn{
 	opacity:1;
 	visibility:visible;
 }
@@ -4503,7 +4503,7 @@ p.has-large-font-size {
     top: 15px;
     right: 15px;
 }
-.contact-form-area .bizwheel-btn.theme-2 {
+.contact-form-area .topbest-btn.theme-2 {
     padding: 15px 32px;
 }
 
@@ -4556,7 +4556,7 @@ p.has-large-font-size {
 .contact-form-area.faq-form .form-group.button{
 	text-align:left;
 }
-.contact-form-area.faq-form .form-group.button .bizwheel-btn:hover{
+.contact-form-area.faq-form .form-group.button .topbest-btn:hover{
 	background:#fff;
 	color:#fee600;
 }
@@ -4897,10 +4897,10 @@ p.has-large-font-size {
 .success .mail h2 span {
 	color: #fee600;
 }
-.success .mail .bizwheel-btn {
+.success .mail .topbest-btn {
 	margin-top: 20px;
 }
-.success .mail .bizwheel-btn i{
+.success .mail .topbest-btn i{
 	margin-right:10px;
 }
 /*=======================

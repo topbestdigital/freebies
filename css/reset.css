@@ -406,7 +406,7 @@ big {
 .custom-shadow{
 	box-shadow: 0px 20px 60px #00000024;
 }
-.bizwheel-btn {
+.topbest-btn {
 	text-align: center;
 	margin: 0;
 	padding: 13px 32px;
@@ -422,20 +422,20 @@ big {
 	border: 2px solid transparent;
 	margin-right: 15px;
 }
-.bizwheel-btn:last-child{
+.topbest-btn:last-child{
 	margin:0;
 }
-.bizwheel-btn i{
+.topbest-btn i{
 	padding-left:6px;
 }
-.bizwheel-btn.theme-2 {
+.topbest-btn.theme-2 {
   background: #fee600;
   color: #fff;
 }
-.bizwheel-btn.radius{
+.topbest-btn.radius{
 	border-radius:50px;
 }
-.bizwheel-btn:hover,.bizwheel-btn.theme-2:hover{
+.topbest-btn:hover,.topbest-btn.theme-2:hover{
 	background:#000000;
 	color:#fff;
 	box-shadow:0 10px 10px -8px rgba(0, 0, 0, 0.5);
