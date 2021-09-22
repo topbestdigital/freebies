@@ -62,7 +62,7 @@
 		display:none;
 	}
 	.header .nav-inner {
-		float: left;
+		float: right;
 		margin-right: 64px;
 	}
 	.right-bar .right-nav li a {
